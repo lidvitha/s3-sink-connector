@@ -1,0 +1,13 @@
+
+{
+  "name": "custom-s3-sink-connector",
+  "config": {
+    "connector.class": "com.example.S3SinkConnector",
+    "tasks.max": "1",
+    "topics": "test-topic",
+    "aws.access.key.id": "AKIAY4SS7RQ7WNIXQX7E",
+    "aws.secret.access.key": "0whDvp4ZTg0U5y9u0WbccN7Or6V5nRqsiUR3bkQF",
+    "s3.bucket.name": "demo-kafka-s3"
+  }
+}
+
